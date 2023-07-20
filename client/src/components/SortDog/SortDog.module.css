@@ -1,0 +1,50 @@
+.title{
+    text-align: left;
+    color: #FFC72C;
+}
+.az p{
+    color: #FFC72C;
+    text-align: left;
+    font-weight: bold;
+}
+.az button{
+    margin: 5px;
+    height: 30px;
+    font-size: 17PX;
+
+    color: #FFC72C;
+    font-weight: bold;
+    border: 2px solid #FFC72C; 
+    background: transparent;
+    border-radius: 5PX;
+    cursor: pointer;
+}
+
+.az button:hover{
+    color: #2e2e2e;
+    background: #FFC72C;
+}
+
+.weight p{
+    color: #FFC72C;
+    text-align: left;
+    font-weight: bold;
+}
+
+.weight button{
+    margin: 5px;
+    width: 58px;
+    height: 30px;
+    font-size: 17PX;
+    color: #FFC72C;
+    font-weight: bold;
+    border: 2px solid #FFC72C; 
+    background: transparent;
+    border-radius: 5PX;
+    cursor: pointer;
+}
+
+.weight button:hover{
+    color: #2e2e2e;
+    background: #FFC72C;
+}

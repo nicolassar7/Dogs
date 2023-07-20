@@ -1,0 +1,99 @@
+.create {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #2e2e2e;
+    text-align: left;
+    margin-top: 70px;
+    
+  }
+  
+
+  .form-create {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-create {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+
+  .form-create label {
+    color: red;
+    font-size: 12px;
+  }
+  
+ 
+  .temperaments-checkbox {
+    margin-top: 20px;
+  }
+  
+  .temperaments-checkbox label {
+    font-weight: bold;
+  }
+  
+  .check {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .check div {
+    margin-right: 20px;
+  }
+  
+
+  .buttons-create {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #2e2e2e;
+    color: #2e2e2e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .button:hover {
+    background-color: #444;
+  }
+  
+  .create-info label {
+    color: #FFC72C;
+    font-weight: bold;
+  }
+  
+  .create-info input {
+    border-color: #FFC72C;
+  }
+  
+  .temperaments-checkbox label {
+    color: #FFC72C;
+    font-weight: bold;
+  }
+  
+  .check input[type="checkbox"]:checked + label {
+    color: #FFC72C;
+  }
+  
+  .buttons-create .button {
+    background-color: #FFC72C;
+  }
+  
+  .buttons-create .button:hover {
+    background-color: #d8a922;
+  }

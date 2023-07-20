@@ -1,0 +1,77 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: #2e2e2e;
+    padding: 10px;
+  }
+
+.nav button{
+  border: 3px solid #FFC72C;
+  border-radius: 20px;
+  color: #FFC72C;
+  font-weight: bold;
+  height: 30px;
+  background: transparent;
+}
+
+.nav button:hover{
+  background: #FFC72C;
+  color: #2e2e2e;
+}
+
+.search input{
+  border-radius: 20px;
+  outline: none;
+  border: 3px solid #FFC72C;
+  background: transparent;
+  color: #FFC72C;
+  height: 25px;
+
+}
+
+.search button{
+  height: 50PX;
+  background: #FFC72C;
+  border: none;
+  border-radius: 20px;
+  height: 25px;
+  margin-left: 5px;
+  color: #2e2e2e;
+}
+
+  .menu-btn {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .menu-icon {
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: #333;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .menu {
+    position: absolute;
+    top: 60%;
+    right: 0; /* Ajuste el lado derecho en lugar del izquierdo */
+    background-color: #2e2e2e;
+    padding: 10px;
+    display: none;
+    list-style-type: none;
+    height: 1350%;
+  }
+  
+  .menu li {
+    margin-bottom: 10px;
+  }
+  
+  input[type="checkbox"]:checked ~ .menu {
+    display: block;
+  }

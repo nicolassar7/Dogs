@@ -1,0 +1,32 @@
+body {
+    background-image: url('../../assets/lindo-perrito-reproductor-cassette.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title{
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 150px;
+    font-size: 80px;
+    color: #2e2e2e;
+}
+
+.Landing button{
+    float: left;
+    margin-left: 140px;
+    font-size: 30PX;
+    border: transparent;
+    color: #FFC72C;
+    font-weight: bold;
+    border: 2px solid #FFC72C; 
+    background: #2e2e2e;
+    border-radius: 5PX;
+    cursor: pointer;
+}
+
+.Landing button:hover{
+    color: #2e2e2e;
+    background: #FFC72C;
+}

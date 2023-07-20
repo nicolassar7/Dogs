@@ -1,0 +1,30 @@
+.pag {
+    position: absolute; /* Posicionamiento absoluto */
+    bottom: 20px; /* Ajusta la distancia desde la parte inferior */
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Margen superior para separar del contenido */
+}
+
+.pag button{
+    font-size: 20px;
+    margin: 3px;
+    border: 2px solid #FFC72C; 
+    background: #2e2e2e;
+    color: #FFC72C;
+    border-radius: 5px;
+}
+
+.pag button:hover {
+    background: #FFC72C;
+    color: #2e2e2e; /* Establece la opacidad al 50% */
+  }
+
+  .pag button:focus {
+    background: #FFC72C;
+    color: #2e2e2e;
+}
+  
+

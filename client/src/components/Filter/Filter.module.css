@@ -1,0 +1,8 @@
+.container select{
+    border: 2px solid #FFC72C; 
+    color:#FFC72C ;
+    background-color: #2e2e2e;
+    cursor: pointer;
+    outline: none;
+    border-radius: 3px;
+}
