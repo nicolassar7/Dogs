@@ -25,6 +25,7 @@ export function getDogs() {
 
 
   export function getDogByName(name) {
+    console.log(name)
     return async function (dispatch) {
       const json = await axios(`http://localhost:3001/dogs?name=${name}`); //respuesta del llamado a la api por nombre
       return dispatch({

@@ -14,7 +14,6 @@ const NavBar = ({ handleChange, handleSubmit, setPage, searchString }) => {
             <form onChange={handleChange}>
                 <input type="text" placeholder={"Search"} value={searchString} />
                 <button type="submit" onClick={handleSubmit}>ENTER</button>
-                
             </form>
         </div>
         <Link to={`/createDog`} >
@@ -23,7 +22,7 @@ const NavBar = ({ handleChange, handleSubmit, setPage, searchString }) => {
         <label htmlFor="menu-toggle" className={style.menuBtn}>
             <span className={style.menuIcon}></span>
         </label>
-        <label for='burger' className={style.burger}>
+        <label htmlFor='burger' className={style.burger}>
             <input type="checkbox" id="burger"  />
             <span></span>
             <span></span>

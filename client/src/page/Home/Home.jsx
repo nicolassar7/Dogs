@@ -35,15 +35,17 @@ function Home() {
   }
 
   async function handleSubmit(event) {
+    console.log(  event)
     event.preventDefault();
-    setPage(0);
 
-    try {
-      await dispatch(getDogByName(searchString));
-      setSearchString("");
-    } catch (error) {
-      console.log("Ocurrió un error al buscar la raza", error.message);
-    }
+    // setPage(0);
+
+    // try {
+    //   await dispatch(getDogByName(searchString));
+    //   setSearchString("");
+    // } catch (error) {
+    //   console.log("Ocurrió un error al buscar la raza", error.message);
+    // }
   }
 
   function handleClear() {
